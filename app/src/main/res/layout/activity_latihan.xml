@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".latihan">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/back"
+            android:src="@drawable/kembali"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latihan Soal"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/biru"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/gambarlatihan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soal Matematika SMP/MTs"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/biru"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latihan akan dilaksanakan dalam waktu 10 nenit,"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="@color/biru"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="terdiri atas 2 soal pilihan ganda"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textColor="@color/biru"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mulai"
+            android:id="@+id/mulai"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</RelativeLayout>

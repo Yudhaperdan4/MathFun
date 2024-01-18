@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/group_33677"
+        android:label="Math-Fun"
+        android:roundIcon="@drawable/group_33677"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MediaPembelajaran"
+        tools:targetApi="31">
+        <activity
+            android:name=".videopembelajaran"
+            android:exported="false" />
+        <activity
+            android:name=".wrong17"
+            android:exported="false" />
+        <activity
+            android:name=".correct17"
+            android:exported="false" />
+        <activity
+            android:name=".latihan4"
+            android:exported="false" />
+        <activity
+            android:name=".latihan3"
+            android:exported="false" />
+        <activity
+            android:name=".wrong16"
+            android:exported="false" />
+        <activity
+            android:name=".correct16"
+            android:exported="false" />
+        <activity
+            android:name=".latihan2"
+            android:exported="false" />
+        <activity
+            android:name=".latihan1"
+            android:exported="false" />
+        <activity
+            android:name=".wrong15"
+            android:exported="false" />
+        <activity
+            android:name=".wrong14"
+            android:exported="false" />
+        <activity
+            android:name=".wrong13"
+            android:exported="false" />
+        <activity
+            android:name=".correct15"
+            android:exported="false" />
+        <activity
+            android:name=".correct14"
+            android:exported="false" />
+        <activity
+            android:name=".correct13"
+            android:exported="false" />
+        <activity
+            android:name=".finish3"
+            android:exported="false" />
+        <activity
+            android:name=".quiz15"
+            android:exported="false" />
+        <activity
+            android:name=".quiz14"
+            android:exported="false" />
+        <activity
+            android:name=".wrong12"
+            android:exported="false" />
+        <activity
+            android:name=".correct12"
+            android:exported="false" />
+        <activity
+            android:name=".correct11"
+            android:exported="false" />
+        <activity
+            android:name=".wrong11"
+            android:exported="false" />
+        <activity
+            android:name=".quiz13"
+            android:exported="false" />
+        <activity
+            android:name=".quiz12"
+            android:exported="false" />
+        <activity
+            android:name=".quiz11"
+            android:exported="false" />
+        <activity
+            android:name=".wrong10"
+            android:exported="false" />
+        <activity
+            android:name=".correct10"
+            android:exported="false" />
+        <activity
+            android:name=".finish2"
+            android:exported="false" />
+        <activity
+            android:name=".wrong9"
+            android:exported="false" />
+        <activity
+            android:name=".correct9"
+            android:exported="false" />
+        <activity
+            android:name=".quiz10"
+            android:exported="false" />
+        <activity
+            android:name=".wrong8"
+            android:exported="false" />
+        <activity
+            android:name=".correct8"
+            android:exported="false" />
+        <activity
+            android:name=".correct7"
+            android:exported="false" />
+        <activity
+            android:name=".wrong7"
+            android:exported="false" />
+        <activity
+            android:name=".quiz9"
+            android:exported="false" />
+        <activity
+            android:name=".quiz8"
+            android:exported="false" />
+        <activity
+            android:name=".correct6"
+            android:exported="false" />
+        <activity
+            android:name=".quiz7"
+            android:exported="false" />
+        <activity
+            android:name=".wrong6"
+            android:exported="false" />
+        <activity
+            android:name=".quiz6"
+            android:exported="false" />
+        <activity
+            android:name=".wrong5"
+            android:exported="false" />
+        <activity
+            android:name=".correct5"
+            android:exported="false" />
+        <activity
+            android:name=".wrong4"
+            android:exported="false" />
+        <activity
+            android:name=".correct4"
+            android:exported="false" />
+        <activity
+            android:name=".correct3"
+            android:exported="false" />
+        <activity
+            android:name=".wrong3"
+            android:exported="false" />
+        <activity
+            android:name=".wrong2"
+            android:exported="false" />
+        <activity
+            android:name=".correct2"
+            android:exported="false" />
+        <activity
+            android:name=".wrong1"
+            android:exported="false" />
+        <activity
+            android:name=".correct1"
+            android:exported="false" />
+        <activity
+            android:name=".finish1"
+            android:exported="false" />
+        <activity
+            android:name=".quiz5"
+            android:exported="false" />
+        <activity
+            android:name=".quiz4"
+            android:exported="false" />
+        <activity
+            android:name=".quiz3"
+            android:exported="false" />
+        <activity
+            android:name=".quiz2"
+            android:exported="false" />
+        <activity
+            android:name=".quiz1"
+            android:exported="false" />
+        <activity
+            android:name=".metodeeliminasi"
+            android:exported="false" />
+        <activity
+            android:name=".metodecampuran"
+            android:exported="false" />
+        <activity
+            android:name=".metodesubstitusi"
+            android:exported="false" />
+        <activity
+            android:name=".metodegrafik"
+            android:exported="false" />
+        <activity
+            android:name=".materi"
+            android:exported="false" />
+        <activity
+            android:name=".latihan"
+            android:exported="false" />
+        <activity
+            android:name=".quiz"
+            android:exported="false" />
+        <activity
+            android:name=".daskbord"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

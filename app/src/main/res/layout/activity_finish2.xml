@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmath"
+    tools:context=".quiz">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIZ LV 2"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rate1"
+            android:id="@+id/lv1"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play1"
+            android:id="@+id/play1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next2"
+            android:id="@+id/next2"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/skip1"
+            android:id="@+id/skip1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bawah"
+            android:scaleType="fitXY"
+            android:layout_marginTop="780dp"/>
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".daskbord">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blur">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="75dp"
+                android:src="@drawable/group_33678" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="95dp"
+                android:text="@string/selamat"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/utama"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@color/transparant"
+                android:src="@drawable/group_33682"
+                android:id="@+id/quizdaskbord"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/transparant"
+                android:id="@+id/latihandaskbord"
+                android:src="@drawable/group_33684" />
+
+            <ImageView
+                android:id="@+id/materidaskbord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="255dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/transparant"
+                android:src="@drawable/group_33683" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_33685"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/quizlv1"
+                android:background="@color/transparant"
+                android:src="@drawable/group_33686" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:id="@+id/quizlv2"
+                android:background="@color/transparant"
+                android:src="@drawable/group_33687" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="255dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/subs"
+                android:background="@color/transparant"
+                android:src="@drawable/group_33688" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/transparant"
+                android:src="@drawable/berlatih"
+                android:id="@+id/berlatih"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@color/transparant"
+                android:src="@drawable/vidio"
+                android:id="@+id/vidio"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="255dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/eli"
+                android:background="@color/transparant"
+                android:src="@drawable/group_33691" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
